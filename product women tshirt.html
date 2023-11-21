@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product - </title>
+
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+</head>
+<body>
+
+    <nav class="navbar"></nav>
+
+    <section class="product-details">
+        <div class="image-slider"  style=" background-image: url('img/womenTshirt.jpg');">
+            <div class="product-images">
+                <img src="img/womenTshirt.jpg" class="active" alt="">
+                <img src="img/womenTshirt1.jpg" alt="">
+                <img src="img/womenTshirt2.jpg" alt="">
+                <img src="img/womenTshirt.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- right row -->
+        
+        <div class="details">
+            <h2 class="product-brand">T-Shirt</h2>
+            <p class="product-short-des">Elevate your everyday style with our women's t-shirt, where comfort meets chic in a perfect blend of effortless elegance.</p>
+            <span class="product-price">$99</span>
+            <span class="product-actual-price">$200</span>
+            <span class="product-discount">( 50% off )</span>
+    
+            <p class="product-sub-heading">select size</p>
+    
+            <input type="radio" name="size" value="s" checked hidden id="s-size">
+            <label for="s-size" class="size-radio-btn check">s</label>
+            <input type="radio" name="size" value="m" hidden id="m-size">
+            <label for="m-size" class="size-radio-btn">m</label>
+            <input type="radio" name="size" value="l" hidden id="l-size">
+            <label for="l-size" class="size-radio-btn">l</label>
+            <input type="radio" name="size" value="xl" hidden id="xl-size">
+            <label for="xl-size" class="size-radio-btn">xl</label>
+            <input type="radio" name="size" value="xxl" hidden id="xxl-size">
+            <label for="xxl-size" class="size-radio-btn">xxl</label>
+    
+            <button class="btn cart-btn">add to cart</button>
+            <a href="#product-category"> 
+                <button onmousedown="playMusic('Test1_audio_women.mp3')" class="btn">Personal Stylist</button>
+            </a>
+        </div>
+        
+    </section>
+
+    <section class="detail-des">
+        <h2 class="heading">description</h2>
+        <p class="des">Born From The Essence Of Tranquility, ZenGeez Seamlessly Weaves Together The Calm, Minimalist Elegance Of Zen Philosophy With The Bold And Expressive Nature Of Contemporary Fashion. Our Clothing Is A Canvas That Transcends Conventional Boundaries, Inviting Wearers To Experience A Harmonious Blend Of Comfort, Sophistication, And Individual Expression.</p>
+    </section>
+
+    <section class="product">
+        <h2 id="product-category" class="product-category">Personal Stylist</h2>
+        <i class="fa-solid fa-volume-high"></i>
+        <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+        <!-- inside product section. -->
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/womentp1.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Jeans</h2>
+                    <p class="product-short-des">crafted for comfort and designed to effortlessly complement your every move.</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/womentp3.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to Wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Chunky Trainers</h2>
+                    <p class="product-short-des">where fashion meets comfort, and every step tells a story of sophistication.</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            
+            
+            
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/womentp9.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to Wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">shoulder bag</h2>
+                    <p class="product-short-des">a chic blend of fashion and functionality, designed to carry you through life's adventures in timeless elegance</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="img/womentp11.jpg" class="product-thumb" alt="">
+                    <button class="card-btn">add to Wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Cat-Eye sunglasses</h2>
+                    <p class="product-short-des">where fashion meets UV protection in a frame of effortless elegance.</p>
+                    <span class="price">$20</span><span class="actual-price">$40</span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <footer></footer>
+    <script src="js/nav.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/product.js"></script>
+
+    
+    
+</body>
+</html>
